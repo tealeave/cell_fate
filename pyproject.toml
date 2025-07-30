@@ -1,0 +1,28 @@
+[project]
+name = "single-cell-multimodal-ml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.10.2"
+dependencies = [
+    "colorama>=0.4.6",
+    "cycler>=0.12.1",
+    "dask>=2025.7.0",
+    "dask-ml>=2025.1.0",
+    "graphviz>=0.21",
+    "hdf5plugin>=5.1.0",
+    "ipykernel>=6.30.0",
+    "ipython>=8.37.0",
+    "kaggle>=1.7.4.5",
+    "matplotlib>=3.10.3",
+    "nbconvert>=7.16.6",
+    "nbformat>=5.10.4",
+    "pandas>=2.3.1",
+    "pyarrow>=21.0.0",
+    "pydot>=4.0.1",
+    "scikit-learn>=1.7.1",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "tables>=3.10.1",
+    "tensorflow[and-cuda]>=2.19.0",
+]
