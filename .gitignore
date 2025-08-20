@@ -1,80 +1,28 @@
-# Existing entries
-# ignore private key
-UCB.pem
-public_ip.md
-labs_on_vm/week_02/geojson_data
-gmap_api_key.txt
-w205.key
-w205_cert.pem
+# Large data files
+*.sif
+*.oracle
+*.h5ad
+*.links
+*.parquet
 
-# Suggested additions
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+# Cache and config directories (these paths look like they got copied from home)
+homezvol2/
+**/.cache/
+**/.config/
+**/.local/
+**/.ipython/
+**/.jupyter/
 
-# Python compiled files
+# Python build artifacts
+*.egg-info/
 __pycache__/
 *.pyc
+*.pyo
 
-# Temporary files
-*.log
-*.tmp
-*.swp
+# Lock files (optional - you might want to keep uv.lock)
+# uv.lock
 
-<!-- # Data files (optional, depending on your needs)
-*.csv
-*.json
-*.xlsx -->
-
-# Virtual environments (if applicable)
-venv/
-.env
-
-# IDE/Editor files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Ignore the backup .tgz file cause they're too large
-*.tgz
-/backup
-
-# TCGA Analysis Project
-# R environment
-renv/
-.Rproj.user/
-.Rhistory
-.RData
-.Ruserdata
-CLAUDE.md
-GEMINI.md
-
-# Data files (raw TCGA data can be large)
-data/
-*.RData
-*.rds
-
-# Results (generated outputs)
-results/
-*.png
-*.pdf
-*.csv
-*.html
-
-# Python virtual environment
-.venv/
-__pycache__/
-
-# HPC/cluster files
-*.o
-*.e
-*.pbs
-*.slurm
-
-# Temporary files
-*.tmp
-*.log
-
-# Large files
-GDCdata/
-data/
+# OS files
+.DS_Store
+Thumbs.db
+*.egg-info/
